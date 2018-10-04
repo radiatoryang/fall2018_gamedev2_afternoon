@@ -29,6 +29,20 @@ public class RaycastMouse : MonoBehaviour
 		{
 			// if true, if we hit the wall, move the sphere there
 			sphere.position = myRayHit.point; // point = worldPos of impact
+			
+			// what if wanted the tag of the thing we hit?
+			Debug.Log( myRayHit.collider.tag );
+			
+			// what if we wanted to access the object we hit?
+			myRayHit.transform.Rotate(0f, 0f, 1f); // demo: rotate the thing we hit
+			
+			// INSTANTIATION: cloning an object during the game
+			// myRayHit.point = the position of the new clone
+			// Quaternion.Euler() = the rotation of the new clone
+			if (Input.GetMouseButton(0)) // 0 = left-click
+			{
+				Instantiate(sphere, myRayHit.point, Quaternion.Euler(0, 0, 0));
+			}
 		}
 	}
 }
