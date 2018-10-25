@@ -36,6 +36,10 @@ public class Fish : MonoBehaviour
 		
 		// always turn towards its destination
 		transform.LookAt( destination );
+		
+		// another way to move the fish:
+		// move forward AFTER you look at your destination
+		// transform.Translate(0f, 0f, swimSpeed * Time.deltaTime);
 
 	}
 }

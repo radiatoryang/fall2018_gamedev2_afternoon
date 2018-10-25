@@ -125,7 +125,7 @@ GameObject:
   m_Layer: 0
   m_Name: FishGod
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishPrefab: {fileID: 1496822578382166, guid: 220b13d29c622304eb75ea6c5165f932, type: 2}
+  myFishList: []
 --- !u!4 &741480800
 Transform:
   m_ObjectHideFlags: 0
@@ -148,7 +149,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 741480798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7004113, y: 21.805563, z: -62.461132}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -163,15 +164,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4817394247128996, guid: 220b13d29c622304eb75ea6c5165f932, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -23.321281
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4817394247128996, guid: 220b13d29c622304eb75ea6c5165f932, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 21.978456
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4817394247128996, guid: 220b13d29c622304eb75ea6c5165f932, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -64.110596
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4817394247128996, guid: 220b13d29c622304eb75ea6c5165f932, type: 2}
       propertyPath: m_LocalRotation.x
